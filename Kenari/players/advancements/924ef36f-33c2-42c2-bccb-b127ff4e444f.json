@@ -1394,6 +1394,7 @@
     "criteria": {
       "minecraft:cave_spider": "2026-06-12 19:31:43 -0600",
       "minecraft:skeleton": "2026-07-27 22:02:15 -0600",
+      "minecraft:zombified_piglin": "2026-08-01 21:24:55 -0600",
       "minecraft:spider": "2026-07-27 22:01:56 -0600",
       "minecraft:zombie": "2026-06-12 19:40:28 -0600",
       "minecraft:creeper": "2026-06-12 19:32:26 -0600"
@@ -2330,17 +2331,25 @@
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:nether_wastes": "2026-07-31 22:17:47 -0600"
-    },
-    "done": false
-  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2026-07-31 22:17:43 -0600"
     },
     "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-07-31 22:17:43 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2026-08-01 21:21:25 -0600",
+      "minecraft:nether_wastes": "2026-07-31 22:17:47 -0600",
+      "minecraft:soul_sand_valley": "2026-08-01 21:23:08 -0600"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/leather_leggings_dyed": {
     "criteria": {
@@ -2348,9 +2357,93 @@
     },
     "done": true
   },
-  "minecraft:nether/root": {
+  "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
-      "entered_nether": "2026-07-31 22:17:43 -0600"
+      "has_smooth_stone": "2026-08-01 21:06:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2026-08-01 21:21:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2026-08-01 21:23:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2026-08-01 21:23:14 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2026-08-01 21:28:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2026-08-01 21:28:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2026-08-01 21:06:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2026-08-01 21:06:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2026-08-01 21:28:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2026-08-01 21:28:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2026-08-01 21:28:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2026-08-01 21:28:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2026-08-01 21:23:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2026-08-01 21:10:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2026-08-01 21:26:37 -0600"
     },
     "done": true
   },
